@@ -1661,7 +1661,7 @@ body.is-preload #header .content .inner {
 	transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 	padding: 4.5rem 2.5rem 1.5rem 2.5rem;
 	position: relative;
-	width: 40rem;
+	width: 34em;
 	max-width: 100%;
 	background-color: rgba(27, 31, 34, 0.85);
 	border-radius: 4px;
@@ -1778,42 +1778,76 @@ body.is-preload #footer {
 }
 
 
-.fa-linkedin-in {
-    background-color: #0077B5;
-    color: white;
-    font-size: 14px;
-    padding: 5px;
-    border-radius: 4px;
-
-}
-
-.fa-github {
-	background-color: rgb(103, 103, 103);
-    color: white;
-    font-size: 14px;
-    padding: 5px;
-    border-radius: 4px;
-
-}
-
 .my-links {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-	list-style-type: none;
-}
-
-.footer_links {
 	display: flex;
 	flex-direction: column;
-    color: inherit;
-	align-items: center;
-	justify-content: center;
-	border: none;
+	gap: 15px;
 }
 
-.fa-github, .fa-linkedin-in {
-    margin-left: 5px;
-	text-decoration-line: none;
+.fa-file-pdf, .fa-graduation-cap, .fa-map-marker-alt {
+	width: 30px;
+}
+
+.resume {
+	border: none;
+	cursor: pointer;
+}
+
+
+.main_image {
+	height: 200px;
+	background-color: none;
+	filter: brightness(100%);
+	object-fit: cover;
+}
+
+.project_buttons_div {
+	display: flex;
+	gap: 25px;
+}
+
+.button_project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 35px;
+}
+
+.fa-github:hover {
+	background-color: white;
+	color: #000!important;
+	opacity: 1;
+}
+
+.project > * {
+	margin: 10px 0px!important;
+}
+
+.list_items > * {
+	font-style: italic;
+}
+
+#work {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.icon_container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	justify-content: center;
+}
+
+.icon_container__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.devicon {
+	font-size: 90px;
+	filter: brightness(100%);
 }
