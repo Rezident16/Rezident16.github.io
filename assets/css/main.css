@@ -1259,7 +1259,7 @@ button {
 	transition-delay: 0.75s;
 	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/mybackground.jpeg");
 	/* background-image: url('.../../images/mybackground.jpg'); */
-	background-size: 1200px;
+	background-size: 1600px;
 		/* 256px 256px; */
 	/* background-position: center,
 		center; */
