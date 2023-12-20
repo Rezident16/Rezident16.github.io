@@ -760,6 +760,7 @@ input[type="radio"]+label:before {
 .image:before {
 	pointer-events: none;
 	background-image: url("../../images/overlay.png");
+	
 	background-color: rgba(19, 21, 25, 0.5);
 	border-radius: 4px;
 	content: '';
@@ -1256,13 +1257,14 @@ button {
 	-webkit-transition-delay: 0.75s;
 	-ms-transition-delay: 0.75s;
 	transition-delay: 0.75s;
-	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-	background-size: auto,
-		256px 256px;
-	background-position: center,
-		center;
-	background-repeat: no-repeat,
-		repeat;
+	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/mybackground.jpeg");
+	/* background-image: url('.../../images/mybackground.jpg'); */
+	background-size: 1200px;
+		/* 256px 256px; */
+	/* background-position: center,
+		center; */
+	/* background-repeat: no-repeat,
+		repeat; */
 	z-index: 2;
 }
 
@@ -1321,6 +1323,7 @@ body.is-preload #bg:before {
 	width: 100%;
 	padding: 4rem 2rem;
 	z-index: 3;
+
 }
 
 #wrapper:before {
